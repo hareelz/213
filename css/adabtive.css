@@ -1,0 +1,324 @@
+@media all and (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+    .navbar__list {
+        width: 47%;
+    }
+    .navbar__end {
+        width: 24%;
+    }
+    .center__block_first {
+        left: 35%;
+    }
+    .center__block_second {
+        padding-left: 40px;
+    }
+    .header {
+        margin: 0 8%;
+    }
+    .header__btn {
+        width: 17%;
+        padding: 1.5% 0;
+        top: 231px;
+        right: 27%;
+    }
+    .rewiews {
+        flex-direction: column;
+    }
+    .rewiews__img {
+        width: 100%;
+        justify-content: center;
+    }
+    .rewiews__title {
+        margin: 0px 38% 0 5%;
+    }
+    .services__item {
+        width: 35%;
+    }
+    .fonagram__title {
+        padding-right: 1%;
+    }
+    .fonagram__btn {
+        width: 50%;
+    }
+    .user__title {
+        margin: 0 27%;
+    }
+    .user__parag {
+        margin: 5% 20%;
+    }
+    .download__img {
+        flex-direction: column;
+    } 
+    .download__img_click {
+        margin: 10px;
+    }  
+    .download__title {
+        font-size: 30px;
+        
+    }
+}
+
+@media all and (max-width:768px) {
+    .container {
+        width: 95%;
+    }
+    .fonagram {
+        flex-direction: column;
+    }
+    .navbar__end {
+        width: 27%;
+    }
+    .list__items_end > button {
+        padding: 15px 19px;
+    } 
+    .navbar__list {
+        width: 50%;
+    }
+    .center__block_first {
+        left: 31%;
+    }
+    h1 {
+        font-size: 59px;
+    }  
+    .header__parag {
+        margin: 30px 9%;
+    }
+    .header__btn {
+        width: 22%;
+        padding: 1.9% 0;
+        top: 269px;
+        right: 21%;
+    } 
+    .services__item {
+        width: 31%;
+    }
+    .soc_set > img {
+        margin-bottom: 15%;
+    }
+    .fonagram__title {
+        text-align: center;
+    }
+    .fonagram__header {
+        font-size: 55px;
+    }
+    .fonagram__btn {
+        width: 66%;
+        font-size: 18px;
+    }
+    .fonagram__p {
+        margin-bottom: 8%;
+    }
+    .fonagram__img {
+        text-align: center;
+    }
+    .fonagram__title {
+        margin: 0 8% 6% 8%;
+    }
+    .fonagram__header {
+        font-size: 48px;
+    }
+    .user__title {
+        margin: 0 13%;
+    }
+    .download__title {
+        font-size: 29px;
+        margin: 10%;
+    }
+}
+
+@media all and (max-width: 426px) {
+    .navbar__end, .navbar__list {
+        display: none;
+    }
+    #burger {
+        width: 24px;
+        height: 24px;
+    }
+    .navbar {
+        margin-top: 5%;
+    }
+    span{
+        font-size: 9px;
+        text-align: center;
+    }
+    .navbar__burger {
+        display: flex;
+        flex-direction: column;
+        margin-right: 3%;
+    }
+    #slack {
+        display: none;
+    }
+    .download {
+        flex-direction: column;
+    }
+    .user__item:nth-child(2), .user__item:nth-child(3) {
+        display: none;
+    }
+    .footer__end_img{
+        display: none;
+    }
+    .center__block_first {
+        display: none;
+    }
+    .center__block_second {
+        border: 6px solid #F2F9EB;
+        background-color: #F2F9EB;
+        border-radius: 12px;
+        width: 150px;
+        padding-left: 13px;
+        margin-right: 10%;
+    }
+    .center__block_start {
+        margin-top: 22%; 
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 34px;
+    }
+    .header__parag {
+        margin: 30px 0 90px 0;
+    }
+    .header__email {
+        width: 90%;
+        padding: 13px 0;
+        left: 15px;
+        top: 29%;
+        text-align: center;
+        font-size: 17px;
+    }
+    .header__btn {
+        width: 90%;
+        padding: 4% 0;
+        right: 5%;
+        border-radius: 4px;
+        font-size: 17px;
+    }
+    .header__after_parag {
+        font-size: 11px;
+        margin-top: 10%;
+    }
+    .soc_set > img {
+        width: 17%;
+    }
+    .rewiews__title{
+        margin: 0;
+        padding: 0;
+    }
+    .rewiews__item {
+        text-align: center; 
+    }
+    .rewiews__item:hover {
+        border: 2px solid  #F6F3FC;
+        background-color:  #F6F3FC;
+        border-bottom: 8px solid #794CFF;
+        padding-bottom: 8px;
+     }
+     .soc_set > img {
+        width: 21%;
+    }
+
+     .services__title_main {
+        font-size: 30px;
+        margin-top: 15%;
+     }
+     .services__item {
+        width: 80%;
+    }
+    .services__item {
+        width: 80%;
+    }
+    .services__icon {
+        width: 40%;
+    }
+    .user__title {
+        margin: 20% 13% 0 13%;
+        font-size: 30px;
+    }
+    .user__parag {
+        margin: 5% 4%;
+    }
+    .user__item {
+        flex-direction: column;
+    }
+    .user__title_item {
+        padding: 5% 30% 5% 30%;
+    }
+    .user__img {
+        width: 150%;
+        margin-right: 10%;
+    }
+    .user__name {
+        margin-top: 10px;
+        width: 100%;
+    }
+    .opisanie {
+        text-align: center;
+    }
+    .fonagram__header {
+        font-size: 35px;
+    }
+    .download {
+        height: 290px;
+    }
+    .download__title{
+        text-align: center;
+        margin: 7% 7% 0 7%;
+        font-size: 24px;
+        line-height: 2;
+    }
+    .download__img_click {
+        margin: 3px 10px -4px -18px;
+    }
+    .footer__list_item > p {
+        display: none;
+    }
+    .footer__item {
+        flex-direction: column;
+    }
+    #footer__img {
+        width: 50%;
+    }
+}
+
+@media all and (max-width:375px) {
+    .header__email {
+        top: 33%;
+    }
+    .header__btn {
+        width: 92%;
+        right: 3.4%;
+        top: 280px;
+    }
+    .fonagram__title {
+        margin: 0 6% 5% 8%;
+    }
+    .user__title {
+        margin: 20% 7% 0 7%;
+    }
+    .user__parag {
+        margin: 5% 2%;
+    }
+    .download__title {
+        font-size: 22px;
+    } 
+}
+
+@media all and (max-width: 320px) {
+    .header__email {
+        top: 36%;
+    }
+    .header__btn {
+        width: 92%;
+        right: 2.4%;
+        top: 295px;
+    }
+    .download__title {
+        font-size: 19px;
+    }
+    .user__title_item {
+        padding: 5% 28% 5% 22%;
+    }
+}
